@@ -5,6 +5,51 @@ grand_parent: Sentinel
 layout: script
 permalink: /sentinel-2/ndgri/
 nav_exclude: true
+
+examples:
+- name: Naarst
+  zoom: '11'
+  lat: '44.940'
+  lng: '110.600'
+  datasetId: S2L2A
+  fromTime: '2022-09-20T00:00:00.000Z'
+  toTime: '2022-09-20T23:59:59.999Z'
+  platform:
+  - CDSE
+  evalscripturl: https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndgri/script.js
+
+- name: Zuunbayan
+  zoom: '11'
+  lat: '44.295'
+  lng: '110.250'
+  datasetId: S2L2A
+  fromTime: '2022-09-20T00:00:00.000Z'
+  toTime: '2022-09-20T23:59:59.999Z'
+  platform:
+  - CDSE
+  evalscripturl: https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndgri/script.js
+
+- name: Erdene
+  zoom: '10'
+  lat: '44.530'
+  lng: '111.170'
+  datasetId: S2L2A
+  fromTime: '2023-08-19T00:00:00.000Z'
+  toTime: '2023-08-19T23:59:59.999Z'
+  platform:
+  - CDSE
+  evalscripturl: https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndgri/script.js
+
+- name: Khuvsgul
+  zoom: '10'
+  lat: '43.600'
+  lng: '109.930'
+  datasetId: S2L2A
+  fromTime: '2023-07-30T00:00:00.000Z'
+  toTime: '2023-07-30T23:59:59.999Z'
+  platform:
+  - CDSE
+  evalscripturl: https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndgri/script.js
 ---
 
 ## General description of the script
